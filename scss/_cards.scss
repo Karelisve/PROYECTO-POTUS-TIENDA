@@ -1,0 +1,73 @@
+/*CARDS PRODUCTOS*/
+main {
+    .container {
+        .row {
+            display: flex;
+            justify-content: center;
+            .cards-title {
+            /*clase aplicada solo en el inicio*/
+                text-align: center;
+                font-size: 10px;
+                padding: 20px;
+                letter-spacing: 2px;
+                color: $color-titulo;
+                h2 {
+                    font-family: $fuente-2;
+                }
+            }
+            .card {
+                background-color: $color-bg-1;
+                padding: 0;
+                margin: 10px 10px 30px;
+                img {
+                    width: auto;
+                    height: 340px;
+                }
+                .card-body {
+                    h3 {
+                        font-weight: bold;
+                        padding: 5px;
+                        font-size: 18px;
+                        margin: 0px;
+                        color: $color-titulo;
+                    }
+                    p {
+                        padding: 10px;
+                        margin: 0px;
+                    }
+                    button {
+                        @include boton(10px,2px 20px,6px);
+                        color: $color-basic;
+                        background-color: $color-bg-w;
+                        &:hover {
+                            background-color: $color-bg-hover-link;
+                            color: $color-hover-link;
+                        }
+                    }
+                }
+                &:hover {
+                    transform: translateY(-10px);
+                    box-shadow: map-get($shadow, hover-cards);
+                    transition: 0.5s;
+                }
+            }
+            .card-link {
+                margin: 40px 0px 80px;
+                text-align: center;
+                a {
+                    border-radius: 6px;
+                    padding: 10px 20px;
+                    text-decoration: none;
+                    background-color:$color-bg-w;
+                    color: $color-basic;
+                    box-shadow: map-get($shadow, hover-sombra);
+                    &:hover {
+                        color:$color-hover-link;
+                        box-shadow: map-get($shadow, hover-sombra);
+                        background-color: $color-bg-hover-link;
+                    }
+                }
+            }
+        }
+    }
+}

@@ -1,0 +1,90 @@
+/*PAGE CARE*/
+main {
+    .container {
+        .row {
+            padding: 10px;
+            .imagen-cuidado {
+                margin-top: 50px;
+                width: 290px;
+                height: 410px;
+                background-color: $color-shadow-link;
+                img {
+                    width: 270px;
+                    height: 390px;
+                    margin-top: 10px;
+                }
+            }
+            .parrafo-cuidado {
+                text-indent: 30px;
+                text-transform: initial;
+                margin: 10px;
+                padding: 20px 30px;
+                font-size: 18px;
+                h2 {
+                    text-indent: 0%;
+                    text-align: center;
+                    color: $color-titulo;
+                }
+                .ultimo-parrafo {
+                    margin-bottom: 100px;
+                }
+            }
+        }
+    }
+}
+
+@media screen and (max-width:768px) {
+    main {
+        .container{
+            .row {
+                .parrafo-cuidado {
+                    text-align: justify;
+                    padding: 10px;
+                    width: 550px;
+                    font-size: 17px;
+                    h2 {
+                        font-size: 26px;
+                    }
+                }
+            }
+        }
+    }
+}
+
+@media screen and (max-width:990px) {
+    main {
+        .container {
+            .row {
+                display: flex;
+                justify-content: center;
+                .imagen-cuidado {
+                    width: 220px;
+                    height: 280px;
+                    margin-left: 5px;
+                    margin: 20px;
+                    img {
+                        width: 200px;
+                        height: 260px;
+                    }
+                }
+            }
+        }
+    }
+}
+
+
+@media screen and (max-width:1000px) {
+    main {
+        section {
+            article {
+                .parrafo-cuidado {
+                    font-size: 15px;
+                    text-align: justify;
+                    padding: 5px;
+                }
+            }
+        }
+    }
+}
+
+

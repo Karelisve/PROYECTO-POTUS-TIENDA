@@ -1,0 +1,2 @@
+"Potus Tienda"
+es un sitio web informativo dedicado a la venta de plantas y macetas. Aquí, los amantes de la jardinería pueden explorar una variedad de opciones para embellecer sus espacios con vegetación. El sitio ofrece información sobre diferentes tipos de plantas, consejos de cuidado, y opciones de macetas que se adaptan a diversos estilos y necesidades. Ideal para quienes buscan añadir un toque natural a sus hogares o jardines.
